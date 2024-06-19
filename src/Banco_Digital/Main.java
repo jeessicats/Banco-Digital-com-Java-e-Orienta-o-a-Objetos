@@ -14,5 +14,8 @@ public class Main {
 
         cc.imprimirExtrato();
         cp.imprimirExtrato();
+
+        ((ContaPoupanca) cp).calcularRendimento();
+        cp.imprimirExtrato();
     }
 }
